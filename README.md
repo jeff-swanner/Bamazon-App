@@ -27,7 +27,7 @@ This application is a command line application created using Node.js and MySQL t
 * Inquirer node module - Used for user input
 * cli-table node module - Used for formatting data displayed on the command line
 
-# Google Drive Tutorial
+## Google Drive Tutorial
 * [WebM Google Drive Link](https://drive.google.com/file/d/1ERVkJyy2eF_i12j7vZU_-XaTpByN9GHC/view)
 
 ## Creator
