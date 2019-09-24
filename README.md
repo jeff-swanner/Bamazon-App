@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a command line application created using Node.js and MySQL to create a mock amazon product application. The application has 3 differnect access levels. The customer application allows a user to purchase products and stores the information in a MySQL table. The manager application allows the user to view product inventory, update inventory quantites, and add new products.
+This application is a command line application created using Node.js and MySQL to create a mock amazon product application. The application has 3 differnect access levels. The customer application allows a user to purchase products and stores the information in a MySQL table. The manager application allows the user to view product inventory, update inventory quantites, and add new products. The supervisor application uses MySQL JOINS to create a table showing the department costs, sales to date, and total profit. 
 
 ## How To Use
 1. Download the github repository to your computer. 
