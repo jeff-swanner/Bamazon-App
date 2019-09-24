@@ -9,6 +9,7 @@ CREATE TABLE products (
     department_name VARCHAR(100) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     stock_quantity INT NOT NULL,
+    product_sales DECIMAL(10,2) NULL,
     PRIMARY KEY (item_id)
 );
 
@@ -41,3 +42,25 @@ VALUES ("Avengers: End Game", "Movies & TV", 29.99, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Knife Set", "Home & Kitchen", 49.55, 8);
+
+CREATE TABLE departments (
+    department_id INT AUTO_INCREMENT NOT NULL,
+    department_name VARCHAR(100) NOT NULL,
+    over_head_costs DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (department_id)
+);
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Computers",1000);
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Books",100);
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Electronics",900);
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Home & Kitchen",400);
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Movies & TV",1000);
